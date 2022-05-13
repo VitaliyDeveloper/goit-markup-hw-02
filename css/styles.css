@@ -1,6 +1,4 @@
 body {
-  font-family: "Inter", sans-serif;
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -13,14 +11,25 @@ body {
   color: #000;
 }
 
-.menu {
-  font-family: "Roboto";
+/*HEADER*/
+
+/*navbar*/
+.menu-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.menu-link:hover {
+  color: #2196f3;
+}
+
+.head-contact-mail,
+.head-contact-tel {
+  color: #757575;
 }
 
 /*logo*/
@@ -39,7 +48,11 @@ body {
   color: #2196f3;
 }
 
+/*MAIN*/
+
 /*FOOTER*/
+
+/*address*/
 .footer-contact {
   font-family: "Roboto";
   font-style: normal;
