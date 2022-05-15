@@ -96,7 +96,6 @@ body {
 }
 
 .about-us-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -136,7 +135,6 @@ body {
 }
 
 .our-command-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -150,14 +148,12 @@ body {
 .footer-contact {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
 .local {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -166,7 +162,6 @@ body {
 
 .footer-contact-tel,
 .footer-contact-mail {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
