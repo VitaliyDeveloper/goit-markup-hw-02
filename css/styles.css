@@ -27,6 +27,13 @@ body {
   color: #2196f3;
 }
 
+.head-contact-mail:hover,
+.head-contact-tel:hover,
+.head-contact-mail:focus,
+.head-contact-tel:focus {
+  color: #2196f3;
+}
+
 .head-contact-mail,
 .head-contact-tel {
   font-weight: 500;
