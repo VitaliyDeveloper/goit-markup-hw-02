@@ -1,5 +1,14 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2f303a;
+  --secondary-accent-color: #f5f4fa;
+  --text-color-contact: #757575;
+  --highlight-text-color: #2196f3;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
 }
 
 .list {
@@ -22,7 +31,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--highlight-text-color);
 }
 
 .head-contact-mail:hover,
@@ -41,10 +50,14 @@ body {
   color: #757575;
 }
 
+.current-link {
+  color: var(--highlight-text-color);
+}
+
 /*logo*/
 .logo {
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -58,6 +71,10 @@ body {
 
 /* ===============MAIN=============== */
 
+.heroes {
+  background-color: var(--accent-color);
+}
+
 .heroes-title {
   font-weight: 900;
   font-size: 44px;
@@ -65,8 +82,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  /*color: #ffffff*/
+  color: #ffffff;
 }
 
 .heroes-btn {
@@ -80,8 +96,12 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
+}
+
+.heroes-btn:hover,
+.heroes-btn:focus {
+  background-color: #188ce8;
 }
 
 /*ABOUT US*/
@@ -99,7 +119,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color-contact);
 }
 
 /*WHAT WE DO (PHOTO)*/
@@ -115,6 +135,10 @@ body {
 }
 
 /*OUR command*/
+
+.our-command-section {
+  background-color: var(--secondary-accent-color);
+}
 
 .our-command-title {
   font-weight: 700;
@@ -139,25 +163,33 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color-contact);
 }
 
 /* ===============FOOTER=============== */
 
+.contact-section {
+  background-color: var(--accent-color);
+}
+
 /*address*/
 .footer-contact {
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
+.logo-footer {
+  color: #ffffff;
+}
+
 .local {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 
 .footer-contact-tel,
@@ -165,5 +197,5 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
